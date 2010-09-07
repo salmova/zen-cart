@@ -162,7 +162,7 @@
 <table width="100%" cellspacing="2" cellpadding="10" border="0">
 <tbody>
         <tr>
-            <td class="pageHeading"><?php echo CONFIGURE_CHOCCY_LITE_SKIN_TITLE; ?></td>
+            <td class="pageHeading"><?php echo CONFIGURE_CHOCC_LITE_SKIN_TITLE; ?></td>
             <td class="pageHeading" align="right"><?php echo '<a href="javascript:history.back()">' . zen_image_button('button_back.gif', IMAGE_BACK) . '</a>'; ?></td>
         </tr>
         <tr>
