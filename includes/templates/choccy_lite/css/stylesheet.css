@@ -155,22 +155,22 @@ TEXTAREA {
 *+ html FIELDSET {
 	padding: 13px;
 	margin: 3px 0 12px 0;
-	border: 1px solid #d6d6d6;
+	border: 1px solid #EDE9D9;
 	}
 /* /Only for IE7*/
 
 FIELDSET {
 	padding: 7px 13px 13px 13px;
 	margin: 10px 0 17px 0;
-	border: 1px solid #d6d6d6;
+	border: 1px solid #EDE9D9;
 	}
 
 LEGEND {
 	font: bold 1.04em Tahoma;
 	padding: 3px 7px 3px;
 	margin: 0 0 8px 0;
-	color: #444444;
-	background: #e9e9ef;
+	color: #521E0C;
+	background: #F8F5EA;
 	}
 
 LABEL {
@@ -506,7 +506,7 @@ ul.inline-list li {
 #indexProductListCatDescription {
 	padding: 0 0 8px 0;
 	margin: 0 0 8px 0;
-	border-bottom: 1px solid #efefef;
+	border-bottom: 1px solid #EDE9D9;
 }
 #indexProductList .inputLabel {
 	font-weight: bold;
@@ -641,7 +641,7 @@ ul.inline-list li {
 }
 
 .search-header {
-	margin: 5px 0 0 0;
+	margin: 6px 0 0 0;
 	float: right;
 }
 .search-header input {
@@ -785,15 +785,15 @@ ul.inline-list li {
 	vertical-align: top;
 }
 #attribsOptionsText {
-	background: #f0f0f0;
+	background: #F8F5EA;
 	margin: 0 -11px 8px;
 	padding: 7px 5px;
 }
 #productAttributes {
 	padding: 0 11px 8px;
 	margin: 8px 0;
-	background: #fafafa;
-	border: 1px solid #e5e5e5;
+	background: #FBF9F4;
+	border: 1px solid #EDE9D9;
 }
 .attributesComments {
 	color: #555555;
@@ -857,23 +857,23 @@ ul.inline-list li {
 	float: right;
 	text-align: center;
 	margin: 1em;
-	border: 1px solid #e2e2e2;
-	background: #f8f8f8;
+	border: 1px solid #EDE9D9;
+	background: #FBF9F4;
 	padding: 1em;
 	}
 
 
 .tableHeading TH {
-	border-bottom: 1px solid #d9d9d9;
-	background: #f0f0f0;
+	border-bottom: 1px solid #EDE9D9;
+	background: #F8F5EA;
 	}
 
 .tableHeading, #cartSubTotal {
-	background: #f9f9f9;
+	background: #FBF9F4;
  }
 
 #cartSubTotal {
-	border-top: 1px solid #d9d9d9;
+	border-top: 1px solid #EDE9D9;
 	font-weight: bold;
 	text-align: right;
 	line-height: 2.2em;
