@@ -1,0 +1,100 @@
+---------------
+Jun 21 2010 22:21 -- inspect
+System Inspection Results: 
+------------------------------
+NA: Webserver => Apache/2.0.63 (Unix) PHP/5.3.2 DAV/2
+NA: HTTP Host => localhost:8888
+NA: Path_Translated => /Applications/MAMP/htdocs/zen-cart/zc_install/index.php(SCRIPT_FILENAME)
+NA: Real Path => /Applications/MAMP/htdocs/zen-cart
+NA: Server Free Disk Space => 16.77 GB
+NA: PHP O/S => Darwin
+NA: PHP API Mode => apache2handler
+NA: PHP Max Execution Time per page => 30
+OK: Register Globals => OFF
+OK: MySQL Support => ON
+OK: MySQL Version => 5.1.44
+OK: PHP Version => 5.3.2
+OK: PHP Safe Mode => OFF
+OK: PHP Sessions Support => ON
+OK: PHP Session.AutoStart => OFF
+OK: PHP session.use_trans_sid => OFF
+OK: Suggested SQL Cache Folder => /Applications/MAMP/htdocs/zen-cart/cache
+OK: PHP magic_quotes_runtime setting => OFF
+OK: PHP magic_quotes_sybase setting => OFF
+OK: PHP GD Support => ON
+OK: GD Version => GD bundled (2.0.34 compatible)
+OK: PHP ZLIB Compression Support => ON
+OK: PHP OpenSSL Support => ON
+OK: PHP cURL Support => ON
+OK: CURL NON-SSL Capability => Okay
+OK: CURL SSL Capability => Okay
+OK: PHP Upload Support => ON  upload_max_filesize=32M;  post_max_size=32M
+OK: PHP Upload TMP dir => /Applications/MAMP/tmp/php
+NA: PHP include_path => .:/Applications/MAMP/bin/php5.3/lib/php
+NA: PHP SMTP destination => localhost
+NA: PHP sendmail path => /usr/sbin/sendmail -t -i 
+NA: PHP sendmail 'from' => 
+OK: PHP open_basedir restrictions => 
+WARN: PHP Output Buffering (gzip) => OFF
+OK: PHP FTP Support => ON
+OK: PHP XML Support => ON
+OK: PHP Session.Save_Path => /Applications/MAMP/htdocs/zen-cart/cache-->Writeable
+OK: includes/configure.php =>  Writeable
+OK: admin/includes/configure.php =>  Writeable
+OK: cache => OK 777 read/write/execute
+OK: images => OK 777 read/write/execute (INCLUDE SUBDIRECTORIES TOO)
+OK: includes/languages/english/html_includes => OK 777 read/write (INCLUDE SUBDIRECTORIES TOO)
+OK: media => OK 777 read/write/execute
+OK: pub => OK 777 read/write/execute
+OK: admin/backups => OK 777 read/write
+OK: admin/images/graphs => OK 777 read/write/execute
+PHP Extensions compiled: Core, date, ereg, libxml, openssl, pcre, sqlite3, zlib, bcmath, bz2, calendar, ctype, curl, dom, hash, fileinfo, filter, ftp, gd, session, iconv, json, ldap, mbstring, mysql, SPL, mysqli, PDO, pdo_sqlite, standard, posix, Reflection, Phar, SimpleXML, soap, sockets, SQLite, exif, tokenizer, xml, xmlreader, xmlwriter, xsl, apache2handler, imap, yaz, mcrypt, gettext, pgsql, pdo_pgsql, pdo_mysql, XCache
+------------------------------
+
+
+---------------
+Jun 21 2010 22:21 -- database_setup
+FATAL: Connection to Database failed - Access denied for user 'root'@'localhost' (using password: NO)
+
+---------------
+Jun 21 2010 22:21 -- database_setup1
+Installer - Page: database_setup -- collected information: Array
+(
+    [language] => english
+    [DIR_FS_SQL_CACHE] => /Applications/MAMP/htdocs/zen-cart/cache
+    [DB_TYPE] => mysql
+    [DB_PREFIX] => 
+    [DB_CHARSET] => latin1
+    [DB_SERVER] => localhost:8888
+    [DB_SERVER_USERNAME] => root
+    [DB_SERVER_PASSWORD] => 
+    [DB_DATABASE] => zencart
+    [STORE_SESSIONS] => db
+    [USE_PCONNECT] => 
+    [SQL_CACHE_METHOD] => none
+)
+
+
+---------------
+Jun 21 2010 22:22 -- database_setup1
+Installer - Page: database_setup -- collected information: Array
+(
+    [language] => english
+    [DIR_FS_SQL_CACHE] => /Applications/MAMP/htdocs/zen-cart/cache
+    [DB_TYPE] => mysql
+    [DB_PREFIX] => 
+    [DB_CHARSET] => latin1
+    [DB_SERVER] => localhost:8888
+    [DB_SERVER_USERNAME] => *****
+    [DB_SERVER_PASSWORD] => Y205dmRBPT0=
+    [DB_DATABASE] => zencart
+    [STORE_SESSIONS] => db
+    [USE_PCONNECT] => 
+    [SQL_CACHE_METHOD] => none
+)
+
+
+---------------
+Jun 21 2010 22:25 -- store_setup
+FATAL: Store Zone must be specified.
+

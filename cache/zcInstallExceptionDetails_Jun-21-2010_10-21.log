@@ -1,0 +1,4 @@
+---------------
+Jun 21 2010 22:21 -- database_setup
+FATAL: Connection to Database failed - Access denied for user 'root'@'localhost' (using password: NO)
+

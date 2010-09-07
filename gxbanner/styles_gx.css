@@ -1,0 +1,77 @@
+/***********************************************
+ * GXBanner Images Slideshow - (c) www.12leaves.com - ecommerce webdesign services
+ * This notice must stay intact for legal use
+ ***********************************************/
+img {
+	border: 0;
+}
+#gslider, #gslider .slides, #gslider .pages {
+	width: 608px;    /* Width of the banner */
+	height: 194px;   /* Height of the banner */
+}
+#gslider .pages {
+	text-align: right; /* Banner navigation position (left, center, right) */
+	vertical-align: top;
+	font: normal 13px arial;
+	display: none;
+	height: 30px;
+	position: relative;
+	z-index: 200;
+	list-style: none;
+	margin: -24px 0 0 0;
+	padding: 0;
+}
+#gslider  {
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+}
+#gslider .slide {
+	position: absolute;
+}
+
+#gslider .page {
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 -1px;
+	padding: 1px 5px;
+	background-color: #ffffff; /* Page navigation background color */
+	cursor: pointer;
+}
+#gslider .prev {
+	margin: 0 0 0 7px;
+	padding: 1px 6px;
+	background: url("images/arrow_left.gif") no-repeat center 58%;
+	background-color: #ffffff;
+}
+#gslider  .next {
+	margin: 0 7px 0 0;
+	padding: 1px 6px;
+	background: #ffffff url("images/arrow_right.gif") no-repeat center 58%;
+}
+#gslider .prev img, #gslider .next img {
+	width: 1px !important;
+	height: 16px;
+}
+#gslider .prev img,#gslider .next img {
+	//height: 13px;   /* IE6, IE7*/
+}
+a.page, a.page:link, a.page:visited {
+	font: normal 13px arial;
+	color: #333333;     /* Page navigation font color */
+	text-decoration: none;
+	border: 1px solid #ffffff; /* Page border color */
+}
+#gslider .page:hover {
+	color: #000000; /* Hover page font color */
+    opacity: 1 !important;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100) !important; /* IE 5.5+*/
+	background-color: #ffffff; /* Hover page background color */
+	border: 1px solid #bbbbbb; /* Hover page border color */
+}
+#gslider .pages .present {
+	font: bold 13px arial;
+	color: #333333;  /* Active page font color */
+	background-color: #ffffff; /* Active page background color */
+	border: 1px solid #888888; /* Active page border color */
+}

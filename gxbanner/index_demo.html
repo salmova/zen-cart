@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="styles_gx.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.4.2.js" type="text/javascript"></script>
+<script src="gslider.js" type="text/javascript"></script>
+<script type="text/javascript">
+/***********************************************
+ * GXBanner Images Slideshow - (c) www.12leaves.com - ecommerce webdesign services
+ * This notice must stay intact for legal use
+ ***********************************************/
+	var $gslider_options = {
+		pause: 3000, // Pause between automatic slide changes in milliseconds
+		effect: "fadeOut", // one of "slideLeft", "fadeOut", "slideUp", "slideLeftBoth", "slideLeftOrRight", "slideLeftOrRightBoth"
+		speed: 700, // number in milliseconds
+		pages_opacity: 0.7, // pagination opacity
+		pages_effect: "fade", // one of  "slide", "fade"
+		pages_speed: 200 // number in milliseconds
+	};
+	</script>
+</head>
+
+<body>
+<div id="gslider">
+	<div class="slides">
+		<!--Paste/remove here the HTML container for the images-->
+		<div class="slide">
+			<a href="#"><img src="images/01.jpg" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="#"><img src="images/02.jpg" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="#"><img src="images/03.jpg" alt="" /></a>
+		</div>
+	</div>
+
+	<div class="pages">
+	    <a class="prev page"><img src="images/spacer.gif" width="1" alt=""></a>
+
+		<!--Paste/remove here the HTML container for the banner pages. You can remove the page naviagation from the banner by commenting or deleting the code. Only left and right arrows will appear on the banner.-->
+		<a class="page">1</a>
+		<a class="page">2</a>
+		<a class="page">3</a>
+
+        <a class="next page"><img src="images/spacer.gif" width="1" alt=""></a>
+	</div>
+</div>
+
+</body>
+
+</html>

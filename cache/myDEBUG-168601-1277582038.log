@@ -1,0 +1,1 @@
+[26-Jun-2010 23:53:58] PHP Fatal error:  Call to undefined function SetErrorReporting() in /Applications/MAMP/htdocs/zen-cart/includes/templates/choccy_lite/templates/tpl_index_default.php on line 47

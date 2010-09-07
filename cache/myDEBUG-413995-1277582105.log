@@ -1,0 +1,1 @@
+[26-Jun-2010 23:55:06] PHP Fatal error:  Call to undefined function zen_get_products_display_price_jolly() in /Applications/MAMP/htdocs/zen-cart/includes/modules/choccy_lite/featured_products.php on line 67

@@ -1,0 +1,35 @@
+<!-- 
+* Created by 12leaves.com
+* @copyright Copyright 2009-2010 12leaves.com
+*
+* XML file from which the SWF file reads the data. 
+-->
+
+<!--
+url_pic - the thumb image in the banner.
+url - the address to go to when clicking the image.
+Use target="_blank" parameter to open link in a new window. For example: <item url_pic="bannerfx/images/home_banner.jpg" url="http://www.google.com" target="_blank" />
+-->
+<data>
+	<item url_pic="bannerflx/images/home_banner1.jpg" url="index.php?main_page=specials"/>
+	<item url_pic="bannerflx/images/home_banner.jpg" url="index.php?main_page=products_all" />
+</data>
+
+<settings>
+	<setting name="button_align" value="right" />  <!--Buttons Position. Values: left, center or right -->
+	<setting name="delay" value="4000" />         <!--Images switching pause. Value: millisecond -->
+
+    <!-- Default button styles -->
+	<setting name="button_background" value="0xffffff" />  <!--Button background color. Value: HEX color from 0x000000 to 0xffffff (0xrrggbb)-->
+	<setting name="button_background_alpha" value="30" />  <!--Button background transparency. Value: from 0 to 100-->
+	<setting name="button_border" value="0xffffff" />      <!--Button border color--> 
+	<setting name="button_border_alpha" value="40" />      <!--Button border transparency-->
+	<setting name="button_text_color" value="0x61a3c5" />  <!--Button text color--> 
+
+    <!-- Active button styles -->
+	<setting name="active_button_background" value="0xffffff" />  <!-- Active Button background color--> 
+	<setting name="active_button_background_alpha" value="65" />  <!--Active Button background transparency-->                           
+	<setting name="active_button_border" value="0xffffff" />      <!--Active Button border color-->                
+	<setting name="active_button_border_alpha" value="75" />      <!--Active Button border transparency-->                               
+	<setting name="active_button_text_color" value="0x0c9ee9" />  <!--Active Button text color-->                  
+</settings>
